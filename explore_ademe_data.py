@@ -19,7 +19,6 @@ category_list = []
 for category in response.json().get("data", []):
     category_list.append(category.get("slug"))
 print(category_list)
-category_list = category_list[:-1]  # remove the "divers", which is empty
 
 # Get ecv of the first category
 for category in category_list:
