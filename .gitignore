@@ -1,5 +1,6 @@
 .ipynb_checkpoints*
 venv/*
+.venv/*
 .idea/*
 config.py
 secrets.py
